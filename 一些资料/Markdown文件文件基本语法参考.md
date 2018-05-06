@@ -5,7 +5,7 @@
 *斜斜斜斜斜*   **粗粗粗粗粗**
 _斜斜斜斜斜_   __粗粗粗粗粗__
 ```
-示例：
+示例：   
   *斜斜斜斜斜*   **粗粗粗粗粗**  
   _斜斜斜斜斜_   __粗粗粗粗粗__
 
@@ -150,44 +150,50 @@ _斜斜斜斜斜_   __粗粗粗粗粗__
 
 
 
-## Inline Code
+## 7.内联代码
 ```
-`<code>` spans are delimited
-by backticks.
+`<code>` 通过反引号来进行标记
+```示例：
+`<code>` 通过反引号来进行标记
 
-You can include literal backticks
-like `` `this` ``.
+
+## 代码块
+缩进代码块的每一行至少4个空格或1个 Tab
 ```
+这是一个正常的段落
 
-
-## Block Code
-Indent every line of a code block by at least 4 spaces or 1 tab.
+    这是一个预先格式化股过的
+    代码块
 ```
-This is a normal paragraph.
+示例:   
+这是一个正常的段落
 
-    This is a preformatted
-    code block.
-```
-
-
+    这是一个预先格式化股过的
+    代码块
 
 
-## Horizontal Rules
-Three or more dashes or asterisks:
-```
----
 
-* * *
+## 分割线
+三个或者更多以下符号
 
-- - - -
 ```
 ---
 
 * * *
 
+- - -
+```
+示例：   
+---
+
+* * *
+
 - - - -
 
-## Hard Line Breaks
-End a line with two or more spaces:
+## 三个空格换行
 ```
-Roses are red,   
+换行   换行
+```
+示例：
+换行   
+换行
