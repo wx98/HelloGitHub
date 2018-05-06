@@ -1,86 +1,98 @@
-#Standard Markdown
+# æ ‡å‡† Markdown è¯­æ³•
 *****************************************
-##Ğ±ÌåºÍ¼Ó´Ö
+## æ–œä½“å’ŒåŠ ç²—
+
+
 ```
-*Ğ±Ğ±Ğ±Ğ±Ğ±*   **´Ö´Ö´Ö´Ö´Ö**
-_Ğ±Ğ±Ğ±Ğ±Ğ±_   __´Ö´Ö´Ö´Ö´Ö__
+*æ–œæ–œæ–œæ–œæ–œ*   **ç²—ç²—ç²—ç²—ç²—**
+_æ–œæ–œæ–œæ–œæ–œ_   __ç²—ç²—ç²—ç²—ç²—__
 ```
-*Ğ±Ğ±Ğ±Ğ±Ğ±*   **´Ö´Ö´Ö´Ö´Ö**  
-_Ğ±Ğ±Ğ±Ğ±Ğ±_   __´Ö´Ö´Ö´Ö´Ö__
+*æ–œæ–œæ–œæ–œæ–œ*   **ç²—ç²—ç²—ç²—ç²—**  
+_æ–œæ–œæ–œæ–œæ–œ_   __ç²—ç²—ç²—ç²—ç²—__
 
 
 
-*****************************************
-##Á´½ÓºÍÓÊ¼ş
-###Á´½Ó:
-####Ö±½ÓÏÔÊ¾µÄÁ´½Ó
+## é“¾æ¥å’Œé‚®ä»¶
+### é“¾æ¥:
+#### ç›´æ¥æ˜¾ç¤ºçš„é“¾æ¥   
 ```
-[±êÌâ](https://github.com/wx98 "ĞüÍ£ÏÔÊ¾ÄÚÈİ")
+[æ ‡é¢˜](https://github.com/wx98 "æ‚¬åœæ˜¾ç¤ºå†…å®¹")
 ```   
-[±êÌâ](https://github.com/wx98 "ĞüÍ£ÏÔÊ¾ÄÚÈİ")
-####ÔÚÎÄµµµÄÈÎÒâµØ·½Ìí¼ÓÁ´½Ó£º
+[æ ‡é¢˜](https://github.com/wx98 "æ‚¬åœæ˜¾ç¤ºå†…å®¹")   
+#### åœ¨æ–‡æ¡£çš„ä»»æ„åœ°æ–¹æ·»åŠ é“¾æ¥ï¼š
 ```
-ÕâÊÇÒ»¶Î[ÎÄ±¾][id]ÓÃÓÚ½âÊÍ´ËÁ´½ÓµÄÌí¼Ó·½·¨£¬
-  [id]: https://github.com/wx98  "ĞüÍ£ÏÔÊ¾ÄÚÈİ"
+è¿™æ˜¯ä¸€æ®µ[æ–‡æœ¬][id]ç”¨äºè§£é‡Šæ­¤é“¾æ¥çš„æ·»åŠ æ–¹æ³•ï¼Œ
+  [id]: https://github.com/wx98  "æ‚¬åœæ˜¾ç¤ºå†…å®¹"
 ```
-ÕâÊÇÒ»¶Î[ÎÄ±¾][id]ÓÃÓÚ½âÊÍ´ËÁ´½ÓµÄÌí¼Ó·½·¨£¬
-  [id]: https://github.com/wx98  "ĞüÍ£ÏÔÊ¾ÄÚÈİ"
+è¿™æ˜¯ä¸€æ®µ [æ–‡æœ¬][23]ç”¨äºè§£é‡Šæ­¤é“¾æ¥çš„æ·»åŠ æ–¹æ³•ï¼Œ
+  [23]: https://github.com/wx98  "æ‚¬åœæ˜¾ç¤ºå†…å®¹"
 
-###ÓÊ¼ş:
+### é‚®ä»¶:
 ```
-Ò»¸öÓÊ¼ş <wx.98@qq.com> Á´½Ó.
+ä¸€ä¸ªé‚®ä»¶ <wx.98@qq.com> é“¾æ¥.
 ```
-Ò»¸öÓÊ¼ş <wx.98@qq.com> Á´½Ó.
-
-
+ä¸€ä¸ªé‚®ä»¶ <wx.98@qq.com> é“¾æ¥.
 
 
 
-##Í¼Æ¬
-###ÄÚÁª(±êÌâ¿ÉÑ¡)
-```
-![Ìæ´úÎÄ×Ö](Í¼Æ¬Â·¾¶ "ĞüÍ£ÏÔÊ¾ÄÚÈİ ")
-```
-![Ìæ´úÎÄ×Ö](Í¼Æ¬Â·¾¶ "ĞüÍ£ÏÔÊ¾ÄÚÈİ ")
-###ÈÎÒâÎ»ÖÃ
-```
-![Ìæ´úÎÄ×Ö][id]
-  [id]: Í¼Æ¬Â·¾¶ "ĞüÍ£ÏÔÊ¾ÄÚÈİ"
-```
-![Ìæ´úÎÄ×Ö][id]
-  [id]: Í¼Æ¬Â·¾¶ "ĞüÍ£ÏÔÊ¾ÄÚÈİ"
 
-##Headers
+
+## å›¾ç‰‡
+### å†…è”(æ ‡é¢˜å¯é€‰)
+```
+![æ›¿ä»£æ–‡å­—](å›¾ç‰‡è·¯å¾„ "æ‚¬åœæ˜¾ç¤ºå†…å®¹ ")
+```
+![æ›¿ä»£æ–‡å­—](å›¾ç‰‡è·¯å¾„ "æ‚¬åœæ˜¾ç¤ºå†…å®¹ ")
+###ä»»æ„ä½ç½®
+```
+![æ›¿ä»£æ–‡å­—][id]
+  [id]: å›¾ç‰‡è·¯å¾„ "æ‚¬åœæ˜¾ç¤ºå†…å®¹"
+```
+![æ›¿ä»£æ–‡å­—][id]
+  [id]: å›¾ç‰‡è·¯å¾„ "æ‚¬åœæ˜¾ç¤ºå†…å®¹"
+
+## Headers
 ```
 Setext-style:
 
-±êÌâ 1
+æ ‡é¢˜ 1
 ========
 
-±êÌâ 2
+æ ‡é¢˜ 2
 --------
 ```
-±êÌâ 1
+æ ‡é¢˜ 1
 ========
 
-±êÌâ 2
+æ ‡é¢˜ 2
 --------
 
-atx-style (closing #¡¯s are optional):
+atx-style (closing #â€™s are optional):
 ```
-# ±êÌâ 1 #
-## ±êÌâ 2 ##
-### ±êÌâ 3 ###
-#### ±êÌâ 4 ####
-##### ±êÌâ 5 #####
-###### ±êÌâ 6 ######
+# æ ‡é¢˜ 1 #
+## æ ‡é¢˜ 2 ##
+### æ ‡é¢˜ 3 ###
+#### æ ‡é¢˜ 4 ####
+##### æ ‡é¢˜ 5 #####
+###### æ ‡é¢˜ 6 ######
 ```
-##Lists
+# æ ‡é¢˜ 1 #
+## æ ‡é¢˜ 2 ##
+### æ ‡é¢˜ 3 ###
+#### æ ‡é¢˜ 4 ####
+##### æ ‡é¢˜ 5 #####
+###### æ ‡é¢˜ 6 ######
+
+
+## Lists
 Ordered, without paragraphs:
 ```
 1.  Foo
 2.  Bar
 ```
+1.  Foo
+2.  Bar
+
 Unordered, with paragraphs:
 ```
 *   A list item.
@@ -89,6 +101,13 @@ Unordered, with paragraphs:
 
 *   Bar
 ```
+*   A list item.
+
+    With multiple paragraphs.
+
+*   Bar
+
+
 You can nest them:
 ```
 *   Abacus
@@ -100,7 +119,21 @@ You can nest them:
     3. burper
 *   Cunning
 ```
-##Blockquotes
+*   Abacus
+    * answer
+*   Bubbles
+    1.  bunk
+    2.  bupkis
+        * BELITTLER
+    3. burper
+*   Cunning
+
+
+
+
+
+
+## Blockquotes
 ```
 > Email-style angle brackets
 > are used for blockquotes.
@@ -112,7 +145,7 @@ You can nest them:
 > * You can quote a list.
 > * Etc.
 ```
-##Inline Code
+## Inline Code
 ```
 `<code>` spans are delimited
 by backticks.
@@ -120,7 +153,12 @@ by backticks.
 You can include literal backticks
 like `` `this` ``.
 ```
-##Block Code
+
+
+
+
+
+## Block Code
 Indent every line of a code block by at least 4 spaces or 1 tab.
 ```
 This is a normal paragraph.
@@ -128,7 +166,11 @@ This is a normal paragraph.
     This is a preformatted
     code block.
 ```
-##Horizontal Rules
+
+
+
+
+## Horizontal Rules
 Three or more dashes or asterisks:
 ```
 ---
@@ -137,7 +179,18 @@ Three or more dashes or asterisks:
 
 - - - -
 ```
-##Hard Line Breaks
+---
+
+* * *
+
+- - - -
+
+
+
+
+
+
+## Hard Line Breaks
 End a line with two or more spaces:
 ```
 Roses are red,   
