@@ -350,7 +350,7 @@ Markdown 使用一种和链接很相似的语法来标记图片，同样也允�
 ```
 >![Alt text](/Some_Data/image/me.jpg)
 >
->![Alt text]/Some_Data/image/me.jpg "可选标题")
+>![Alt text](/Some_Data/image/me.jpg "可选标题")
 
 详细叙述如下：   
 *  一个惊叹号 !
@@ -367,7 +367,7 @@ Markdown 使用一种和链接很相似的语法来标记图片，同样也允�
 [id]: /Some_Data/image/me.jpg   "可选标题"
 ```
 >![Alt text][id]
->[id]:/Some_Data/image/me.jpg  "可选标题"
+>[id]: /Some_Data/image/me.jpg  "可选标题"
 
 
 
