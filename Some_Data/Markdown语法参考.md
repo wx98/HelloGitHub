@@ -229,9 +229,21 @@ __语法示例：__
 
 ---------------------------------------
 
+## 区段元素
+### 连接
+Markdown支持两种形式的链接语法：行内式、参考式
+#### 行内式
+只要在方块括号后面紧接着圆括号并插入网址链接即可，如果你还想要加上链接的 title 文字，只要在网址后面，用双引号把 title 文字包起来即可
 
+```
+This is [an example](http://example.com/ "Title") inline link.
 
-
+[This link](http://example.net/) has no title attribute.
+```
+__语法示例：__
+>This is [an example](http://example.com/ "Title") inline link.
+>
+>[This link](http://example.net/) has no title attribute.
 
 
 
