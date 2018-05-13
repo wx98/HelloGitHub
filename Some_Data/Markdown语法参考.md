@@ -230,7 +230,7 @@ __语法示例：__
 ---------------------------------------
 
 ## 区段元素
-### 连接
+### 链接
 Markdown支持两种形式的链接语法：行内式、参考式
 #### 行内式
 只要在方块括号后面紧接着圆括号并插入网址链接即可，如果你还想要加上链接的 title 文字，只要在网址后面，用双引号把 title 文字包起来即可
@@ -280,39 +280,58 @@ __语法示例：__
 * 接着一个以上的空格或制表符
 * 接着链接的网址
 * 择性地接着 title 内容，可以用单引号、双引号或是括弧包着
+* 已知问题Markdown.pl 1.0.1 会忽略单引号包起来的链接标题
 下面这三种链接的定义都是相同：   
-     [foo]: http://example.com/  "Optional Title Here"   
-     [foo]: http://example.com/  'Optional Title Here'   
-     [foo]: http://example.com/  (Optional Title Here)   
+>     [foo]: https://github.com/wx98  "可选标题"   
+>     [foo]: https://github.com/wx98  '可选标题'   
+>     [foo]: https://github.com/wx98  (可选标题)   
 
+链接网址也可以用方括号包起来：
+```
+[id]: < https://github.com/wx98 >  "可选标题"
+```
+也可以把 title 属性放到下一行，也可以加一些缩进
+```
+[id]: <https://github.com/wx98/HelloGitHub/blob/master/Some_Data/MarkdownMarkdown语法参考.md>
+    "可选标题"
+```
+链接辨别标签可以有字母、数字、空白和标点符号，但是并不区分大小写，因此下面两个链接是一样的：
+```
+[link text][a]
+[link text][A]
+```
+接下来是链接的应用示例：
+```
+I get 10 times more traffic from [Google][] than from
+[Yahoo][] or [MSN][].
 
+  [google]: http://google.com/        "Google"
+  [yahoo]:  http://search.yahoo.com/  "Yahoo Search"
+  [msn]:    http://search.msn.com/    "MSN Search"
+或者改成用链接名称的方式写：
+I get 10 times more traffic from [Google][] than from
+[Yahoo][] or [MSN][].
 
+  [google]: http://google.com/        "Google"
+  [yahoo]:  http://search.yahoo.com/  "Yahoo Search"
+  [msn]:    http://search.msn.com/    "MSN Search"
+```
+>I get 10 times more traffic from [Google][] than from
+>[Yahoo][] or [MSN][].
+>
+>  [google]: http://google.com/        "Google"
+>  [yahoo]:  http://search.yahoo.com/  "Yahoo Search"
+>  [msn]:    http://search.msn.com/    "MSN Search"
+>>或者改成用链接名称的方式写：
+>
+>I get 10 times more traffic from [Google][] than from
+>[Yahoo][] or [MSN][].
+>
+>  [google]: http://google.com/        "Google"
+>  [yahoo]:  http://search.yahoo.com/  "Yahoo Search"
+>  [msn]:    http://search.msn.com/    "MSN Search"
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## 1.斜体和加粗
+## 斜体和加粗
 ```
 *斜斜斜斜斜*   **粗粗粗粗粗**
 _斜斜斜斜斜_   __粗粗粗粗粗__
@@ -320,6 +339,32 @@ _斜斜斜斜斜_   __粗粗粗粗粗__
 示例：   
 >*斜斜斜斜斜*   **粗粗粗粗粗**   
 _斜斜斜斜斜_   __粗粗粗粗粗__
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
