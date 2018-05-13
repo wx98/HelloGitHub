@@ -274,6 +274,39 @@ __语法示例：__
 >
 >[id]: https://github.com/wx98  "可选标题"
 
+链接内容定义的形式为：
+* 方括号（前面可以选择性地加上至多三个空格来缩进），里面输入链接文字
+* 接着一个冒号
+* 接着一个以上的空格或制表符
+* 接着链接的网址
+* 择性地接着 title 内容，可以用单引号、双引号或是括弧包着
+下面这三种链接的定义都是相同：
+     [foo]: http://example.com/  "Optional Title Here"
+     [foo]: http://example.com/  'Optional Title Here'
+     [foo]: http://example.com/  (Optional Title Here)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
