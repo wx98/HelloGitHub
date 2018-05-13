@@ -280,10 +280,10 @@ __语法示例：__
 * 接着一个以上的空格或制表符
 * 接着链接的网址
 * 择性地接着 title 内容，可以用单引号、双引号或是括弧包着
-下面这三种链接的定义都是相同：
-     [foo]: http://example.com/  "Optional Title Here"
-     [foo]: http://example.com/  'Optional Title Here'
-     [foo]: http://example.com/  (Optional Title Here)
+下面这三种链接的定义都是相同：   
+     [foo]: http://example.com/  "Optional Title Here"   
+     [foo]: http://example.com/  'Optional Title Here'   
+     [foo]: http://example.com/  (Optional Title Here)   
 
 
 
