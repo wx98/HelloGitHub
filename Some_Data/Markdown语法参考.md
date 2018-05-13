@@ -366,8 +366,8 @@ Markdown 使用一种和链接很相似的语法来标记图片，同样也允�
 ```
 [id]: /Some_Data/image/me.jpg   "可选标题"
 ```
->![Alt text][id1]
->[id1]:  /Some_Data/image/me.jpg  "可选标题"
+![Alt text][id1]
+[id1]:  /Some_Data/image/me.jpg  "可选标题"
 >
 >(不知道哪里有问题总之无法实现)
 
