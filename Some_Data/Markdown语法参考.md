@@ -2,10 +2,8 @@
 
 ## 段落、标题、区块代码
 ### 段落
-```
 一个段落是由一个以上的连接的行句组成，而一个以上的空行则会划分出不同的段落，
 想依赖Markdown插入<br/> ,在插入处先输入2个以上的空格再回车。
-```
 ### 标题
 标题语法有2种分别为：类Setext、类atx式   
 #### 类Setext式:   
@@ -346,10 +344,14 @@ Markdown 使用一种和链接很相似的语法来标记图片，同样也允�
 ### 行内式
 行内式的图片语法看起来像是：
 ```
-![Alt text](/path/to/img.jpg)
+![Alt text](/Some_Data/image/me.jpg)
 
-![Alt text](/path/to/img.jpg "Optional title")
+![Alt text]/Some_Data/image/me.jpg "可选标题")
 ```
+>![Alt text](/Some_Data/image/me.jpg)
+>
+>![Alt text]/Some_Data/image/me.jpg "可选标题")
+
 详细叙述如下：   
 *  一个惊叹号 !
 * 接着一个方括号，里面放上图片的替代文字
@@ -362,9 +364,10 @@ Markdown 使用一种和链接很相似的语法来标记图片，同样也允�
 ```
 「id」是图片参考的名称，图片参考的定义方式则和连结参考一样：
 ```
-[id]: url/to/image  "Optional title attribute"
+[id]: /Some_Data/image/me.jpg   "可选标题"
 ```
-
+>![Alt text][id]
+>[id]:/Some_Data/image/me.jpg  "可选标题"
 
 
 
