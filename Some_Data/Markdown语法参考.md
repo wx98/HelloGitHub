@@ -236,14 +236,13 @@ Markdown支持两种形式的链接语法：行内式、参考式
 只要在方块括号后面紧接着圆括号并插入网址链接即可，如果你还想要加上链接的 title 文字，只要在网址后面，用双引号把 title 文字包起来即可
 
 ```
-这是[一个例子](https://github.com/wx98/"标题")关于内联链接
+这是[一个例子](https://github.com/wx98/ "标题")关于内联链接
 
 [这个链接](https://github.com/wx98) 没有标题属性
 ```
 __语法示例：__
->This is [an example](http://example.com/ "Title") inline link.
->这是[一个例子](https://github.com/wx98/"标题")关于内联链接
->[This link](http://example.net/) has no title attribute.
+>这是[一个例子](https://github.com/wx98/ "标题")关于内联链接
+
 >[这个链接](https://github.com/wx98) 没有标题属性
 
 
