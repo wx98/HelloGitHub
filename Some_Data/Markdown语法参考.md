@@ -1,5 +1,6 @@
 # 标准 Markdown 语法
-
+注：此文件的知识参考[Markdown-Syntax-CN](https://github.com/riku/Markdown-Syntax-CN/ "Markdown-Syntax-CN")和[Mahua](http://mahua.jser.me/ "Mahua")   
+此文件整理了Markdown的基本用法，请随意下载使用，若有改进欢迎指教。
 ## 段落、标题、区块代码
 ### 段落
 一个段落是由一个以上的连接的行句组成，而一个以上的空行则会划分出不同的段落，
@@ -369,7 +370,7 @@ Markdown 使用一种和链接很相似的语法来标记图片，同样也允�
 ![Alt text][id1]
 [id1]:  /Some_Data/image/me.jpg  "可选标题"
 >
->(不知道哪里有问题总之无法实现)
+>(不知道哪里有问题总之无法实现，此处在客户端浏览正常，但是浏览器浏览失败)
 
 ## 自动链接
 Markdown 支持以比较简短的自动链接形式来处理网址和电子邮件信箱，只要是用方括号包起来， Markdown 就会自动把它转成链接。一般网址的链接文字就和链接地址一样，例如:
