@@ -1,6 +1,6 @@
 # 标准 Markdown 语法
 注：此文件的知识参考[Markdown-Syntax-CN](https://github.com/riku/Markdown-Syntax-CN/ "Markdown-Syntax-CN")和[Mahua](http://mahua.jser.me/ "Mahua")   
-此文件整理了Markdown的基本用法，请随意下载使用，若有改进欢迎指教。
+此文件整理了Markdown的基本用法，请随意下载使用，若有对本文件的改进，超欢迎指教。
 ## 段落、标题、区块代码
 ### 段落
 一个段落是由一个以上的连接的行句组成，而一个以上的空行则会划分出不同的段落，
